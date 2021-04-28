@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: grpcClient
+
+grpc:
+  channels:
+    clientaddress:
+      address: 'http://localhost:8186'
+      plaintext: true
+      max-retry-attempts: 10
