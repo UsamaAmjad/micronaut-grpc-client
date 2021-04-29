@@ -4,10 +4,10 @@ This project demostrate the issue when Micronaut gRPC Client does not read the c
 
 ### Task List
 
-- [ ] Steps to reproduce provided
-- [ ] Stacktrace (if present) provided
-- [ ] Example that reproduces the problem uploaded to Github
-- [ ] Full description of the issue provided (see Expected Behaviour)
+- [x] Steps to reproduce provided
+- [x] Stacktrace (if present) provided
+- [x] Example that reproduces the problem uploaded to Github
+- [x] Full description of the issue provided (see Expected Behaviour)
 
 ### Steps to Reproduce
 
