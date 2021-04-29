@@ -1,6 +1,6 @@
 # micronaut-grpc-client
 
-This project demostrate the issue when Micronaut gRPC Client does not read the channel configuration from properties file.
+This project demonstrate the issue when Micronaut gRPC Client does not read the `channel` configuration from the properties file.
 
 ### Task List
 
@@ -24,11 +24,11 @@ grpc:
       plaintext: true
       max-retry-attempts: 10
 ```
-Once you define the above configuation then you can use it inside the annotation `@GrpcChannel("clientaddress")` it will elemenate the need of writing server address inside the annotation and will read it from properties file.
+Once you define the above configuration then you can use it inside the annotation `@GrpcChannel("clientaddress")` it will eliminate the need of writing server address inside the annotation and will read it from the properties file.
 
 ### Actual Behaviour
 
-It is not able to read the `clientaddress` configuration from the properties file and throw a runtime exception with a below message (Stacktrace at the end of file).
+It is not able to read the `clientaddress` configuration from the properties file and throw a runtime exception with the below message (Stacktrace at the end of the file).
 ```
 UNAVAILABLE: Unable to resolve host clientaddress
 ```
