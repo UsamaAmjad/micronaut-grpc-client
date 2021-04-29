@@ -13,7 +13,7 @@ public class ClientServiceTest {
     private ClientService clientService;
 
     @Test
-    public void verifyCleintOk() {
+    public void verifyClientOk() {
         final String reply = clientService.callStub();
         assertNotNull(reply);
     }
